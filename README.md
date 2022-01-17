@@ -1,2 +1,4 @@
-# pos_front_end
-Pós - Web e Mobile - Tecnologias Front-End
+# Pós-Graduação em Desenvolvimento Web e Mobile
+Disciplina: Tecnologias Front-End
+Professor: LUCAS GRASSANO LATTARI
+Aluno: VINÍCIO FRAGOSO MENDES

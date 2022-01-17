@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page - TCC</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <link href="bootstrap-5.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="node_sass.css" rel="stylesheet">
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="bootstrap-5.1.3/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+<!--menu com: Início, Objetivo, Resultados esperados -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Georreferenciamento</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#divInicio" id="ws" role="button">
+            Início
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#divObjetivo" id="ww" role="button">
+            Objetivo
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#divResultados" id="www" role="button">
+            Resultados esperados
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-10">
+      <div class="card m-3">
+        <div class="card-body row align-items-center h-100">
+          <div id="divInicio">
+            <h5 class="card-title">TCC</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Apresentação do Tema</h6>
+            <p class="card-text">
+              A captação de dados geográficos em campo é uma prática comum, que é obtida com o auxílio de várias ferramentas como aparelho de GPS, estação total e os Sistemas de Posicionamento por Satélites (GNSS) integrado a um aparelho mobile, dentre outros. Com os dados coletados, é realizado o próximo passo, que é o tratamento destes dados, ou seja, a utilização dos dados para gerar informações fundamentais para as tarefas na área, ou áreas afins.
+            </p>
+            <p class="card-text">
+              Existem equipamentos para diversas funções, no âmbito do geoprocessamento, funções estas, que definem a coleta e/ou tratamento de dados, propiciando uma melhoria no gerenciamento de atividades. A utilização de aparelhos que possuam GNSS, auxiliam nas coletas, proporcionando dados geográficos (Latitude, Longitude e Altitude).
+            </p>
+            <p class="card-text">
+              Existem diversos tratamentos existentes para dados geográficos (Latitude, Longitude e Altitude), e os mais requisitados são: cálculos de área, cálculos de perímetro, cálculos de distâncias lineares, geração de croquis, etc.
+            </p>
+            <p class="card-text">
+              Uma tecnologia criada e que está presente na vida de uma grande massa populacional, é o Smartphone, sendo uma ferramenta de comunicação telefônica, possuindo outras funcionalidades de entretenimento e busca. A necessidade da realização de tarefas de georreferenciamento, foi um atrativo para que gigantes em Smartphones incluíssem em seus aparelhos, receptores de localização geográfica, que utilizam dados de satélites disponíveis ao uso civil.
+            </p>
+            <img src="img_maps.jpeg" style="width: 450px;text-align: center">
+          </div>
+
+          <div class="mt-4" id="divObjetivo">
+            <h6 class="card-subtitle mb-2 text-muted">Objetivo</h6>
+            <p class="card-text">O objetivo principal deste projeto é o desenvolvimento de um sistema mobile, que permite uma pessoa com experiência em cálculos geográficos ou não, possa por meio de uma aplicação mobile, coletar dados referentes a coordenadas geográficas, e por fim realizar tratamentos planimétricos, conforme a necessidade do usuário.</p>
+          </div>
+
+          <div class="mt-4" id="divResultados">
+            <h6 class="card-subtitle mb-2 text-muted">Resultados Esperados</h6>
+            <p class="card-text">A partir do desenvolvimento da ferramenta mobile, espera-se que seja possível realizar medições de área de forma facilitada com o smartphone.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <!--footer-->
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-2">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Página Inicial</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-between py-4 my-4 border-top">
+            <p>© 2022 Vinício Fragoso Mendes, Todos os direitos reservados.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

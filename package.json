@@ -1,0 +1,24 @@
+{
+  "name": "langind_page_tcc",
+  "version": "1.0.0",
+  "description": "Disciplina: Tecnologias Front-End\r Professor: LUCAS GRASSANO LATTARI\r Aluno: VINÍCIO FRAGOSO MENDES",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init:sass": "node-sass sass/main.scss stylesass.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinicioFragosoMendes/pos_front_end.git"
+  },
+  "author": "VinicioFragosoMendes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VinicioFragosoMendes/pos_front_end/issues"
+  },
+  "homepage": "https://github.com/VinicioFragosoMendes/pos_front_end#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "python": "0.0.4"
+  }
+}
